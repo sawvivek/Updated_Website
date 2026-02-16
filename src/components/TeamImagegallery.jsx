@@ -7,6 +7,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import Images from "../assets";
+
 const sliderData = [
   {
     image: `${Images.Technical}`,
