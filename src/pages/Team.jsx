@@ -3,8 +3,7 @@ import { useEffect } from "react";
 import { Map } from "../components/Common/index";
 import Socials from "../components/Common/Socials";
 import Chairperson from "../components/Team/chairperson";
-// import Images from "../assets/team/index";
-import newImages from "../assets/team2025-2026/index";
+import Images from "../assets/team/index";
 import ProgramOfficer from "../components/Team/programOfficer";
 import DeputyProgramOfficer from "../components/Team/deputyprogramOfficer";
 import Scroller from "../components/Scroller";
@@ -24,22 +23,22 @@ const Team = () => {
       <Scroller />
       <JcContainer />
       <TeamCreativeTeam
-        simple_image={newImages.Technical}
-        hd_image={newImages.Technical}
+        simple_image={Images.Tech_reduced}
+        hd_image={Images.Tech}
         name={"Technical Team"}
         text={"Excellence in Execution, Professionalism in Service"}
       />
       <TeamCreativeTeam
-        simple_image={newImages.Creative_reduced}
-        hd_image={newImages.Creative}
+        simple_image={Images.Creative_reduced}
+        hd_image={Images.Creative}
         name={"Creatives Team"}
         text={
           "Creativity is Seeing what others see and Thinking what noone else ever though"
         }
       />
       <TeamCreativeTeam
-        simple_image={newImages.CouncilandPo}
-        hd_image={newImages.CouncilandPo}
+        simple_image={Images.Creative_reduced}
+        hd_image={Images.councilandPo}
         name={"Pillars of TCET NSS UNIT"}
         text={"TCET NSS: Empowering Change, One Heartbeat at a Time."}
       />
