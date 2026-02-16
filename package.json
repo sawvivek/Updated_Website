@@ -1,6 +1,7 @@
 {
   "name": "nss-final",
   "version": "0.1.0",
+  "homepage": "https://1032241187-sudo.github.io/website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
